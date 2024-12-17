@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  div {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .input-field,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+   
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+  
+  select {
+    height: 38px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    display: block;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+  }
+  
+  button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #ddd;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+ 
