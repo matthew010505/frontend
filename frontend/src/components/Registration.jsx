@@ -51,7 +51,7 @@ const Registration = () => {
 
     if (Object.keys(lst).length === 0) {
       try {
-        const res = await axios.post("http://localhost:8080/register", {
+        const res = await axios.post("https://backend-1-fu8j.onrender.com", {
           name,
           eid,
           email,
